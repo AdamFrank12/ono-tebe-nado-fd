@@ -48,8 +48,6 @@ span {
 }
 
 .address {
-  display: flex;
-  flex-direction: column;
   font-size: 18px;
   font-style: normal;
   line-height: 25px;
