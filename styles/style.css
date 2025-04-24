@@ -66,14 +66,14 @@ span {
   background-position: center;
   background-size: cover;
   width: 1100px;
-  height: 757px;
+  max-height: 757px;
 }
 
 .cover {
   position: relative;
   display: flex;
   max-width: 1100px;
-  height: 385px;
+  max-height: 385px;
   padding-top: 165px;
   padding-left: 50px;
   padding-right: 50px;
@@ -114,7 +114,7 @@ span {
   justify-content: space-between;
   align-items: center;
   width: 1000px;
-  height: 51px;
+  min-height: 51px;
   text-transform: uppercase;
   margin-top: 275px;
   margin-left: 50px;
@@ -168,6 +168,9 @@ span {
   justify-content: space-between;
   color: white;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .lot-title {
@@ -183,28 +186,16 @@ span {
   font-size: 20px;
 }
 
-.first-lot-card {
-  position: relative;
+.film-lot-card {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
-.second-lot-card {
-  position: relative;
+.book-lot-card {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
-.third-lot-card {
-  position: relative;
+.painting-lot-card {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .look-more-button {
@@ -218,7 +209,6 @@ span {
 
 .about {
   width: 1052px;
-  height: 595px;
   display: grid;
   grid-template-columns: 240px 693px;
   gap: 50px;
@@ -291,4 +281,8 @@ span {
   width: 48px;
   height: 48px;
   border: 1px;
+}
+
+.footer-menu-link-active {
+ text-decoration: none;
 }
